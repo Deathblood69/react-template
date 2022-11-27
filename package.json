@@ -1,8 +1,8 @@
 {
-  "name": "react-pages-demo",
+  "name": "react-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Deathblood69.github.io/react-pages-demo",
+  "homepage": "/react-template",
   "dependencies": {
     "@date-io/date-fns": "^2.14.0",
     "@emotion/react": "^11.9.3",
