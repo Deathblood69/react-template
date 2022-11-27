@@ -1,0 +1,42 @@
+{
+  "accueil": {
+    "description": "Learn React",
+    "titre": "Welcome to react using react-i18next",
+    "bonjour": "Hello"
+  },
+  "cards": {
+    "details": "Details"
+  },
+  "commun": {
+    "aujourdhui": "Today"
+  },
+  "page": {
+    "absent_message": "The page is missing",
+    "absent_description": "If you have used the browser adress bar to enter the web adress, please verify its accuracy. Maybe, the page is not yet available.",
+    "erreur_message": "The page didn't load",
+    "erreur_description": "Throughout the page loading, an error occurred, please contact an administrator",
+    "precedent": "Last page"
+  },
+  "table": {
+    "utilisateurs": "Users",
+    "nouveau": "New",
+    "modifier": "Modify",
+    "supprimer": "Delete",
+    "aucune_donnees": "No Data",
+    "ligne_par_page": "Row per page",
+    "sur": "of"
+  },
+  "utilisateur": {
+    "nom": "Last Name",
+    "prenom": "First Name",
+    "date_naissance": "Date of Birth"
+  },
+  "appbar": {
+    "titre": "React JS Formation",
+    "theme": "Theme",
+    "sombre": "Dark",
+    "clair": "Light",
+    "search": "Search",
+    "deconnexion": "Logout"
+  }
+}

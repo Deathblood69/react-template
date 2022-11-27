@@ -1,0 +1,42 @@
+{
+  "accueil": {
+    "description": "Apprendre React",
+    "titre": "Bienvenue à React en utilisant react-i18next",
+    "bonjour": "Bonjour"
+  },
+  "cards": {
+    "details": "Détails"
+  },
+  "commun": {
+    "aujourdhui": "Aujourd'hui"
+  },
+  "page": {
+    "absente_message": "La page que vous cherchez est introuvable.",
+    "absente_description": "Si vous avez tapé l'adresse web dans le navigateur, vérifiez qu'elle est correcte. La page n'est peut-être plus disponible.",
+    "erreur_message": "La page n'a pas réussit à se charger",
+    "erreur_description": "Lors du chargement de la page, une erreur est survenue, veuillez contacter un admnistrateur",
+    "precedent": "Page précédente"
+  },
+  "table": {
+    "utilisateurs": "Utilisateurs",
+    "nouveau": "Nouveau",
+    "modifier": "Modifier",
+    "supprimer": "Supprimer",
+    "aucune_donnees": "Aucune données",
+    "ligne_par_page": "Ligne par page",
+    "sur": "sur"
+  },
+  "utilisateur": {
+    "nom": "Nom",
+    "prenom": "Prénom",
+    "date_naissance": "Date de naissance"
+  },
+  "appbar": {
+    "titre": "Formation React JS",
+    "theme": "Thème",
+    "sombre": "Sombre",
+    "clair": "Clair",
+    "search": "Recherche",
+    "deconnexion": "Se déconnecter"
+  }
+}

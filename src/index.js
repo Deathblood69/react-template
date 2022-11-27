@@ -1,17 +1,24 @@
+import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './css/index.css'
-import App from './pages/App'
-import reportWebVitals from './fonctions/reportWebVitals'
+import {Template} from './pages/Template'
+import {Providers} from './providers/Providers'
+import {ErrorBoundary} from 'react-error-boundary'
+import {CssBaseline, Typography} from '@mui/material'
 
+/** Permet de récupérer l'élément root dans le DOM */
 const root = ReactDOM.createRoot(document.getElementById('root'))
+
+/** Affiche les éléments dans la balise root du DOM */
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ErrorBoundary FallbackComponent={PageErreur}>
+    <CssBaseline />
+    <Providers>
+      <Template />
+    </Providers>
+  </ErrorBoundary>,
 )
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals()
+function PageErreur() {
+  return <Typography>Page d'erreur</Typography>
+}
