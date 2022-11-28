@@ -1,23 +1,25 @@
 import './App.css'
 import {IMAGES} from '../../images/images'
-import {Grid} from '@mui/material'
+import {Grid, Typography} from '@mui/material'
 
 function App() {
   return (
     <Grid
       container
-      justifyContent={'center'}
+      direction='column'
+      justifyContent='center'
+      alignItems='center'
       flex={'max-content'}
-      align={'center'}
+      spacing={2}
     >
       <Grid item>
         <img src={IMAGES.logo} className='App-logo' alt='logo' />
       </Grid>
       <Grid item>
-        <p>
+        <Typography textAlign={'center'}>
           Modifier <code>src/pages/App.js</code> et sauvegarder pour actualiser
           la page.
-        </p>
+        </Typography>
       </Grid>
       <Grid item>
         <a
